@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LucioTech | Manutenção Avançada de Hardware</title>
+  
+  <!-- Fontes do Google: Rajdhani e Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome para Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Estilo Customizado (CSS Separado) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header-container">
+      <a href="#" class="logo-container">
+        <img id="img-logo" src="img/logo.png" alt="LucioTech Logo" class="logo-img">
+        <span id="text-logo" class="logo-text hidden">LUCIO<span class="text-orange">TECH</span></span>
+      </a>
+
+      <!-- Meu menu de Navegação -->
+      <nav class="nav-menu">
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#sobre" class="nav-link">Sobre nós</a>
+        <a href="#contato" class="nav-link">Suporte & Orçamentos</a>
+      </nav>
+
+      <!-- Botão CTA Superior -->
+      <a href="#contato" class="btn btn-teal glow-cyan btn-sm">
+        Fazer Orçamento
+      </a>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero-section container">
+      <div class="hero-text">
+        <div class="badge">
+          <i class="fa-solid fa-microchip animate-pulse"></i> Hardware de Alta Performance
+        </div>
+        <h1 class="hero-title">
+          Seu Computador em <br><span class="text-cyan">Alta Performance.</span>
+        </h1>
+        <p class="hero-subtitle">
+          Manutenção especializada, upgrades sob medida e reparos avançados de hardware com total transparência e velocidade.
+        </p>
+        <div class="hero-buttons">
+          <a href="#contato" class="btn btn-orange glow-orange">
+            Agendar Diagnóstico <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#servicos" class="btn btn-outline">
+            Ver Serviços
+          </a>
+        </div>
+      </div>
+
+      <!-- Banner Principal -->
+      <div class="hero-image-container">
+        <div class="glow-bg"></div>
+        <img src="img/logo.png" alt="LucioTech Capa" class="hero-image">
+      </div>
+    </section>
+
+    <!-- SEÇÃO DE SERVIÇOS -->
+    <section id="servicos" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Nossos Serviços</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">Soluções completas para manter sua máquina fria, rápida e estável.</p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card Serviço 1 -->
+          <div class="card">
+            <div>
+              <div class="card-img-wrapper">
+                <img src="img/placa-mae.jpg" alt="Reparo de Placa-Mãe">
+              </div>
+              <h3 class="card-title">Diagnóstico & Reparo de Placa</h3>
+              <p class="card-desc">Identificação precisa de curto-circuito, recondicionamento de trilhas e soldas especiais (BGA/SMD).</p>
+            </div>
+            <a href="#contato" class="card-link">
+              Solicitar <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Card Serviço 2 -->
+          <div class="card">
+            <div>
+              <div class="card-img-wrapper">
+                <img src="img/limpeza.jpg" alt="Limpeza Preventiva">
+              </div>
+              <h3 class="card-title">Limpeza Térmica Completa</h3>
+              <p class="card-desc">Remoção de resíduos, desoxidação preventiva de contatos e aplicação de pasta térmica de alta condutividade.</p>
+            </div>
+            <a href="#contato" class="card-link">
+              Solicitar <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+
+          <!-- Card Serviço 3 -->
+          <div class="card">
+            <div>
+              <div class="card-img-wrapper">
+                <img src="img/upgrade.jpg" alt="Upgrades de Hardware">
+              </div>
+              <h3 class="card-title">Projetos de Upgrade</h3>
+              <p class="card-desc">Análise de gargalo técnica para recomendar as melhores substituições de processador, GPU, memória ou SSD.</p>
+            </div>
+            <a href="#contato" class="card-link">
+              Solicitar <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="about-section container">
+      <div class="about-text">
+        <h2 class="section-title text-left">Compromisso com o seu Setup</h2>
+        <div class="divider divider-left divider-orange"></div>
+        <p class="text-desc">
+          Na <strong>LucioTech</strong>, entendemos que o seu computador não é apenas uma máquina, é sua ferramenta de trabalho, sua central de estudos ou sua plataforma de entretenimento. 
+        </p>
+        <p class="text-desc">
+          Trabalhamos exclusivamente com as melhores marcas do mercado, aplicando práticas de nível industrial de proteção durante toda a desmontagem e reparo do seu equipamento.
+        </p>
+        <div class="stats-grid">
+          <div class="stat-card border-cyan">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Peças Originais</span>
+          </div>
+          <div class="stat-card border-orange">
+            <span class="stat-number">Garantia</span>
+            <span class="stat-label">Em todos os reparos</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-illustration">
+        <div class="lab-card">
+          <div class="blur-circle"></div>
+          <i class="fa-solid fa-screwdriver-wrench lab-icon"></i>
+          <p class="lab-title">Laboratório Técnico Próprio</p>
+          <p class="lab-desc">Bancadas aterradas e ferramentas calibradas para diagnósticos perfeitos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORMULÁRIO COM VIACEP -->
+    <section id="contato" class="contact-section">
+      <div class="container container-sm">
+        <div class="section-header">
+          <h2 class="section-title">Suporte & Orçamento</h2>
+          <div class="divider"></div>
+          <p class="section-subtitle">Preencha o formulário abaixo. Utilizaremos seu CEP para calcular rotas e prazos de retirada.</p>
+        </div>
+
+        <!-- FORMULÁRIO -->
+        <form id="suporteForm" class="form-card">
+          <div class="form-row gap-6">
+            <div class="form-group">
+              <label for="nome" class="form-label">Seu Nome</label>
+              <input type="text" id="nome" required placeholder="Digite seu nome completo" class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">E-mail de Contato</label>
+              <input type="email" id="email" required placeholder="exemplo@email.com" class="form-input">
+            </div>
+          </div>
+
+          <div class="form-row gap-6">
+            <div class="form-group col-1">
+              <label for="cep" class="form-label">CEP</label>
+              <div class="input-relative">
+                <input type="text" id="cep" required placeholder="00000000" maxlength="8" class="form-input">
+                <div class="loader-spinner" id="loaderCep">
+                  <i class="fa-solid fa-spinner animate-spin text-cyan"></i>
+                </div>
+              </div>
+              <span id="cepError" class="error-text hidden">CEP inválido ou não encontrado.</span>
+            </div>
+            <div class="form-group col-2">
+              <label for="localidade" class="form-label">Cidade / UF</label>
+              <input type="text" id="localidade" readonly placeholder="Preenchido automaticamente" class="form-input form-input-readonly">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="logradouro" class="form-label">Endereço (Rua e Bairro)</label>
+            <input type="text" id="logradouro" readonly placeholder="Preenchido automaticamente pelo CEP" class="form-input form-input-readonly">
+          </div>
+
+          <div class="form-group">
+            <label for="mensagem" class="form-label">Equipamento & Problema Apresentado</label>
+            <textarea id="mensagem" required rows="4" placeholder="Ex: Meu computador gamer desliga sozinho após 10 minutos de jogo..." class="form-input"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-cyan btn-full glow-cyan">
+            <i class="fa-solid fa-paper-plane"></i> Enviar Solicitação de Diagnóstico
+          </button>
+        </form>
+
+        <!-- Modal de Confirmação -->
+        <div id="sucessoModal" class="modal-overlay hidden">
+          <div class="modal-card">
+            <div class="modal-icon-wrapper">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <h3 class="modal-title">Solicitação Enviada!</h3>
+            <p class="modal-desc">Formulário enviado com sucesso!! Nossa equipe técnica entrará em contato em até 2 horas pelo e-mail informado.</p>
+            <button id="fecharModal" class="btn btn-cyan btn-full">
+              Voltar ao Site
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2026 LucioTech - Manutenção de Computadores. by Lucas Silva</p>
+      <div class="social-links">
+        
+        <a href="#" class="social-link"><i class="fa-regular fa-envelope"></i> lucasdevcontato64@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
